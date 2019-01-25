@@ -1,6 +1,20 @@
 # intersect-dirs
 A tool to determine which files in folder A are not in folder B
 
+## Usage
+```
+usage: intersect_dirs.py [-h] dir_a dir_b
+
+Ensure that all files in dir A are in dir B
+
+positional arguments:
+  dir_a
+  dir_b
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
 ## Example
 Folder Structure:
 ```
