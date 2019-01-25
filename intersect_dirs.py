@@ -28,7 +28,7 @@ def _hash_file(path):
 
 def _create_hash_dict(path):
     hash_dict = {}
-    for file in path.glob('**/*'):
+    for file in [file for file in path.glob('**/*') if file.is_file()]:
         file_hash = _hash_file(file)
         if file_hash in hash_dict:
             hash_dict[file_hash].append(file)
