@@ -1,8 +1,8 @@
 import argparse
-import pathlib
 import hashlib
-import sys
 import json
+import pathlib
+import sys
 
 
 BUFFERSIZE = 65536
