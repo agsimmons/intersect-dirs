@@ -75,7 +75,7 @@ def main():
     for file_hash in intersection.keys():
         intersection[file_hash] = list(map(str, intersection[file_hash]))
 
-    print(json.dumps(intersection, indent=4))
+    print(json.dumps(intersection, indent=4, ensure_ascii=False))
 
 
 if __name__ == '__main__':
