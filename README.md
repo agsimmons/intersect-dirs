@@ -1,4 +1,4 @@
-# intersect-dirs
+# intersect_dirs
 A tool to determine which files in folder A are not in folder B
 
 ## Usage
